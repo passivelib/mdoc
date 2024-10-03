@@ -6,10 +6,10 @@ First, instead of a single file, the export includes a folder containing numerou
 MDOC is a tool specifically designed to address these issues. It consolidates the datasheet into a single, easy-to-manage HTML file that can be opened in any web browser without requiring security modifications, ensuring a smoother and safer user experience.
 
 ## Example
-Assume that the Cadence ADE Assembler has generated a datasheet, resulting in a folder named  'sim_results' and a file called 'sim_results.html'.
+Assume that the Cadence ADE Assembler has generated a datasheet, resulting in a folder named  `sim_results` and a file called `sim_results.html`.
 To convert the datasheet into a single, easy-to-manage file, use the following command:
-'''
+```
 mdoc sim_results results
-'''
-This will produce a single HTML file, 'results.html', which can be opened in any web browser without requiring security adjustments.
+```
+This will produce a single HTML file, `results.html`, which can be opened in any web browser without requiring security adjustments.
 
