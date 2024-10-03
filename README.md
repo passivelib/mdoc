@@ -12,4 +12,5 @@ To convert the datasheet into a single, easy-to-manage file, use the following c
 mdoc sim_results results
 ```
 This will produce a single HTML file, `results.html`, which can be opened in any web browser without requiring security adjustments.
+Except simulation results, the file might have schematic of test bench, and config settings and schematics of all sub-circuit views used in a given simulation. 
 
