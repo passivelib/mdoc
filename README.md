@@ -1,5 +1,7 @@
 # Make Documentation (MDOC)
-Designers can export simulation results from Cadence ADE Assembler in the form of an HTML datasheet. However, the exported datasheet has two significant drawbacks.
+Generating reports from simulation results is a tedious and time-consuming task. The standard workflow involves designers taking screenshots of plots and tables from Cadence ADE Assembler and manually placing them into Excel spreadsheets or PowerPoint presentations. This process is not only slow but often incomplete, leading to issues with reproducing results, as crucial information such as configuration settings and sub-circuit views used in the simulation are frequently missing.
+
+Simulation results can be exported from Cadence ADE Assembler in the form of an HTML datasheet. However, the exported datasheet has two significant drawbacks.
 
 First, instead of a single file, the export includes a folder containing numerous files, making it difficult to manage and track in version control systems. Second, the resulting HTML file cannot be opened directly in common web browsers (e.g., Google Chrome, Firefox, Microsoft Edge) without making security adjustments, which may pose a risk to users.
 
