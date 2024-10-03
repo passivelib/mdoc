@@ -1,6 +1,8 @@
 # Make Documentation (MDOC)
 Generating reports from simulation results is a tedious and time-consuming task. The standard workflow involves designers taking screenshots of plots and tables from Cadence ADE Assembler and manually placing them into Excel spreadsheets or PowerPoint presentations. This process is not only slow but often incomplete, leading to issues with reproducing results, as crucial information such as configuration settings and sub-circuit views used in the simulation are frequently missing.
 
+In addition to a brief PowerPoint presentation typically prepared at the end of the design cycle for review purposes, designers are also expected to produce detailed reports that cover simulation results across various design abstractions, temperature ranges, process corners, and other key factors. These reports allow team leads to easily track and verify that all necessary simulations have been performed with the correct settings, ensuring a robust and high-quality design. This comprehensive tracking of simulation results is particularly important for supporting and guiding less experienced junior engineers.
+
 Simulation results can be exported from Cadence ADE Assembler in the form of an HTML datasheet. However, the exported datasheet has two significant drawbacks.
 
 First, instead of a single file, the export includes a folder containing numerous files, making it difficult to manage and track in version control systems. Second, the resulting HTML file cannot be opened directly in common web browsers (e.g., Google Chrome, Firefox, Microsoft Edge) without making security adjustments, which may pose a risk to users.
